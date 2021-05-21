@@ -1,0 +1,17 @@
+
+.display-box{
+    background-color: azure;
+    height: 50px;
+    width: 15rem;
+    margin: auto;
+}
+.button{
+    height: 79px;
+    width: 22%;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: azure;
+}
+.button:hover{
+    background: blueviolet;
+}
