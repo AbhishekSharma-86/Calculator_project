@@ -4,14 +4,25 @@
     height: 50px;
     width: 15rem;
     margin: auto;
+    border: 2px solid black;
+}
+.calculator{
+    margin-left: 35%;
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    width: 296px;
+    flex-wrap: wrap;
 }
 .button{
+    text-align: center;
     height: 79px;
     width: 22%;
     display: inline-block;
     border: 2px solid black;
-    background-color: azure;
+    background-color: rgb(20, 17, 216);
 }
 .button:hover{
-    background: blueviolet;
+    background: rgb(14, 136, 192);
 }
